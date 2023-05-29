@@ -13,6 +13,7 @@ public class CountryController {
 		CountryService countryservice = new CountryService();
 		while(true) {
 		Scanner sc = new Scanner (System.in);
+		System.out.println("Country CRUD operations")
 		System.out.println("Enter the task to perform 1. Insert Country details \n2. Delete country by CountryId");
 		int ch = sc.nextInt();
 		switch(ch) {
